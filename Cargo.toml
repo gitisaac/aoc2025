@@ -1,0 +1,16 @@
+[package]
+name = "aoc2025"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4"
+env_logger = "0.11"
+
+[[bin]]
+name = "day01"
+path = "src/bin/day01.rs"
+
+[[bin]]
+name = "day02"
+path = "src/bin/day02.rs"
